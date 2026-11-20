@@ -1,0 +1,48 @@
+# Generated builds, release staging, and runtime data
+/build/
+/.release/
+/exercise-data/
+/generated-docs/
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.d
+*.pdb
+*.dSYM/
+
+# Compiler, package, and editor caches
+/compile_commands.json
+.cache/
+.clangd/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+
+# Profiling, coverage, logs, and temporary files
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+gmon.out
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Local secrets and operating-system metadata
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+Desktop.ini
